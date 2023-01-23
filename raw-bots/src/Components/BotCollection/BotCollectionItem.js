@@ -1,17 +1,25 @@
 import React from "react";
 
-function BotCollectionItem ({avatar_url, name, catchphrase, health, damage}){
-    return(
-        <div className="col-3 p-1">
-        <div className="card h-100">
-            <img className="card-img-top" src={avatar_url} alt="bot" />
-            <div className="card-body">
-            <h5 className="bot-name">{name}</h5>
-            <h5 className="bot-phrase">{catchphrase}</h5>
-            <p className="bot-health">{health}</p> <span> <p className="bot-damage">{damage}</p></span>              
+function BotCollectionItem ({robot}){
+    const bot = robot.map((robot, index)=>{  
+        return(
+            <div className="col-2 p-1"key={index}>
+            <div className="card h-100">
+                <img className="card-img-top" src={robot.avatar_url} alt="bot" />
+                <div className="card-body">
+                <h5 className="bot-name">{robot.name}</h5>
+                <h5 className="bot-phrase">{robot.catchphrase}</h5>
+                <p className="bot-health">{robot.health +" health"}</p> <span> <p className="bot-damage">{robot.damage +" health"}</p></span>              
+                </div>
             </div>
+     </div>
+        )
+    })
+    return (
+        <div className="row"style={{backgroundColor:"lightgreen"}}>
+        {bot}
         </div>
- </div>
     )
+    
 }
 export default BotCollectionItem

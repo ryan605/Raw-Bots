@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import './App.css';
 import BotCollection from './Components/BotCollection/BotCollection';
-import BotCollectionItem from './Components/BotCollection/BotCollectionItem';
+
 
 
 let BotUrl = "http://localhost:3000/bots"
