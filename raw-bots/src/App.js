@@ -2,6 +2,9 @@ import React,{useState,useEffect} from 'react';
 import './App.css';
 import BotCollection from './Components/BotCollection/BotCollection';
 
+let url ="https://inquisitive-chebakia-3a58f5.netlify.app"
+
+
 
 
 let BotUrl = "http://localhost:3000/bots"
