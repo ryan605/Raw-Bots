@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import BotCollection from '../BotCollection/BotCollection';
 
 
-let BotUrl = "https://row-bots-ryan605.vercel.app/bots"
+let BotUrl = "https://bot-battlr-json-server.vercel.app/bots"
 
 function App({}){
 

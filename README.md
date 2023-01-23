@@ -1,14 +1,9 @@
-# Raw-Bots
-
-<h3>ABOUT</h3>
-
-<small>Welcome to **Bot Battlr**, the one and only spot in the known universe where you can custom build your own Bot Army!a galactic overlord has hired you, a galactic web
-developer, to develop a galactic web app that will allow them to browse through
-a list of robots, view a robot's details, and, enlist a bot into their army. This is my app:</small>
+<h2>Raw-Bots</h2>
+<h2>ABOUT</h2>
+<small>Welcome to Bot Battlr, the one and only spot in the known universe where you can custom build your own Bot Army!a galactic overlord has hired you, a galactic web developer, to develop a galactic web app that will allow them to browse through a list of robots, view a robot's details, and, enlist a bot into their army. This is my app:</small>
 
 <h2>PROJECT BUILD</h2>
 My project has extensively made use of:
-
 -React
 
 -Javascript
@@ -18,16 +13,17 @@ My project has extensively made use of:
 -css and html
 
 <h2>PROJECT SETUP</h2>
+
+
 To access the code first clone the following repo:
 
-    https://github.com/ryan605/Raw-Bots
+
+https://github.com/ryan605/Raw-Bots
 
 
 Backend link:
 
     https://row-bots-ryan605.vercel.app/bots
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -98,4 +94,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
