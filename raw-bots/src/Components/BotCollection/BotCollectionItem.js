@@ -3,7 +3,7 @@ import React from "react";
 function BotCollectionItem ({robot}){
     const bot = robot.map((robot, index)=>{  
         return(
-            <div className="col-2 p-1"key={index}>
+            <div className="mb-5 col-2 p-1"key={index}>
             <div className="card h-100">
                 <img className="card-img-top" src={robot.avatar_url} alt="bot" />
                 <div className="card-body">

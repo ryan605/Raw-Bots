@@ -17,7 +17,7 @@ function BotCollection ({newBot}){
     const bots = newBot.map(
         (value, index) =>{
            return (
-            <div className="col-2" key={index}onClick={()=>handleClick(value)}>
+            <div className="mt-4 col-2" key={index}onClick={()=>handleClick(value)}>
             <div className="card h-10">
                 <img className="card-img-top" src={value.avatar_url} alt="bot" />
                 <div className="card-body">

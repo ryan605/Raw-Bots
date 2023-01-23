@@ -1,10 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import './App.css';
-import BotCollection from './Components/BotCollection/BotCollection';
-
-let url ="https://inquisitive-chebakia-3a58f5.netlify.app"
-
-
+import BotCollection from '../BotCollection/BotCollection';
 
 
 let BotUrl = "https://row-bots-ryan605.vercel.app/bots"
