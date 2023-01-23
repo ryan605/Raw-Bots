@@ -7,7 +7,7 @@ let url ="https://inquisitive-chebakia-3a58f5.netlify.app"
 
 
 
-let BotUrl = "http://localhost:3000/bots"
+let BotUrl = "https://row-bots-ryan605.vercel.app/bots"
 
 function App({}){
 

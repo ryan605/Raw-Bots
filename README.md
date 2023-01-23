@@ -22,11 +22,12 @@ To access the code first clone the following repo:
 
     https://github.com/ryan605/Raw-Bots
 
-Then run :
 
-    npm start
+Backend link:
 
-This will start the backend server 
+    https://row-bots-ryan605.vercel.app/bots
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
