@@ -24,6 +24,10 @@ https://github.com/ryan605/Raw-Bots
 Backend link:
 
     https://row-bots-ryan605.vercel.app/bots
+
+Live server link:
+
+     raw-bots.vercel.app
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
